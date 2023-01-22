@@ -46,9 +46,9 @@ const productManager = new ProductManager()
 productManager.addProductos('Guitarra electrica', 'fende usa 1993', 1500, 'https://www.fuzzfaced.net/uploads/3/8/0/2/38029847/smwewqfuxvtixsqpkm37_orig.jpg', '101010', 5)
 
 productManager.addProductos('Bajo', 'Jazz bass 1995', 4000, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9JJXjQsSdYxWeo52GLSxe_f53nzX26yI_w&usqp=CAU', '101011', 3)
-productManager.addProductos('bateria', 'mapex', 400, 'http://www.mapx.jpg', '101010', 500)
+productManager.addProductos('bateria', 'mapex', 400, 'http://www.mapx.jpg', '101010', 5)
 
-productManager.addProductos('platillo', 'standbull', 400, 'http://www.standbull.jpg', 500)
+productManager.addProductos('platillo', 'standbull', 400, 'http://www.standbull.jpg', 50)
 console.log(productManager.getProductos())
 
 
